@@ -1,0 +1,32 @@
+\documentclass{article}[12pt, a4paper]
+\input{preample/packages}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{12pt}
+
+% DOCUMENT INFO %
+\title{Course Name \\Assignment Title}
+\author{Joshua Cooper}
+\date{March 2021}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+\begin{document}
+
+\input{chapters/title-page}
+\input{chapters/table-of-contents}
+
+% CHAPTERS %
+\input{chapters/example}
+\input{chapters/example}
+\input{chapters/example}
+
+% BIBLIOGRAPHIES %
+\newpage
+\bibliography{bib/references}
+\bibliographystyle{agsm}
+
+\end{document}
